@@ -1,0 +1,18 @@
+﻿<Window x:Class="Project_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="descLabel" Content="Enter the price of your snack. &#xD;&#xA;Between 25 and 100 cents in 5&#xD;&#xA;intervals." HorizontalAlignment="Center" Margin="0,-100,0,0" VerticalAlignment="Center" Width="170" Height="60"/>
+        <TextBox x:Name="priceTextBox" HorizontalAlignment="Center" Height="23" Margin="0,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="120"/>
+        <Button x:Name="submitButton" Content="Submit" HorizontalAlignment="Center" Margin="0,100,0,0" VerticalAlignment="Center" Width="75" Click="submitButton_click"/>
+        <Label x:Name="quartersLabel" Content="Quarters: " HorizontalAlignment="Center" VerticalAlignment="Center" Margin="-200,250,0,0"/>
+        <Label x:Name="dimesLabel" Content="Dimes: " HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,250,0,0"/>
+        <Label x:Name="nickelsLabel" Content="Nickels: " HorizontalAlignment="Center" VerticalAlignment="Center" Margin="200,250,0,0"/>
+
+    </Grid>
+</Window>
