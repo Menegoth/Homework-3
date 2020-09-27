@@ -13,6 +13,11 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+/// Week 3		Homework 1
+/// File Name: MainWindow.xaml.cs
+/// @author: Antonio Monteiro
+/// Date:  September 20th 2020
+
 namespace Project_1
 {
     /// <summary>
